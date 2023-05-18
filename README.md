@@ -10,10 +10,13 @@ Simulates the game of Nim, in which two players alternate in removing the stones
 3.	Use random number generator to generate between 2 to 5 piles and to generate between 1 to 8 stones in each pile.
 4.	Display the board in the following fashion: (Note: O is the letter capital O)
 
-  Pile 1: O O O
-  Pile 2: O
-  Pile 3: O O
-  Pile 4: O O O O O O O O
+    Pile 1: O O O 
+ 
+    Pile 2: O
+    
+    Pile 3: O O
+    
+    Pile 4: O O O O O O O O
   
 5.	Ask player 1 for the move – the pile number and the number of stones to remove. You need to make sure that if a user enters something invalid, whether the pile or stone number, you ask for input again until valid input is entered. Also, the program is to give a suggestion to player 1 as to the number of stones to remove and from which pile in order to win the game. The winning strategy that is to be proposed by the program is explained later on in this document.
 6.	Repeat step 4
